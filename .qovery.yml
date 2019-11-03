@@ -1,0 +1,14 @@
+app:
+  name: fkaskr-tdd
+  type: python
+  version: 3.7
+
+dependencies:
+  - type: mongodb
+    name: my-ids
+    version: 3.4
+    size: 500MB
+  - type: redis
+    name: my-super-redis
+    version: 5
+    size: 100MB
